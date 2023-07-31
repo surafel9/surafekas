@@ -1,0 +1,57 @@
+export const WORK_HISTORY_DATA = [
+	{
+		id: 1,
+		startDate: '02-02-2022',
+		endDate: 'current',
+		title: 'IT Analyst',
+		employer: 'State of Utah',
+		roleDescription:
+			'Consistently deliver top-tier software solutions by leading application design, writing impeccable code, and conducting meticulous testing. Spearhead seamless integration and deployment processes, ensuring timely project completions. Actively contribute to code reviews and engage in collaborative meetings, fostering effective communication and successful project outcomes. Display unwavering commitment and dedication to driving the team towards achieving project milestones and exceeding expectations.',
+		mainTechnologies: [
+			'Java',
+			'SpringMVC',
+			'Javascript',
+			'Node.js',
+			'GraphQl',
+			'PSQL',
+			'C#',
+			'ASP.NET',
+			'React',
+			'JSP',
+			'XML',
+			'AWS',
+		],
+	},
+	{
+		id: 2,
+		startDate: '01-02-2016',
+		endDate: '01-26-2022',
+		title: 'Full stack developer',
+		employer: 'NIX Solutions',
+		roleDescription:
+			'Reliably achieve excellence by orchestrating cutting-edge software designs, crafting flawless code, and executing comprehensive testing. Pioneering seamless integration and swift project deployment, I guarantee on-time project deliveries. Actively contribute to collaborative code reviews and dynamic meetings, cultivating seamless communication and triumphant project results. Unwavering dedication fuels the team towards surpassing project milestones, setting new standards of achievement.',
+		mainTechnologies: [
+			'Javascript',
+			'Node.js',
+			'GraphQl',
+			'PSQL',
+			'React',
+			'HTML',
+			'CSS',
+			'Figma',
+			'Express',
+			'MongoDb',
+			'Typescript',
+		],
+	},
+	{
+		id: 3,
+		startDate: '03-01-2015',
+		endDate: '12-26-2015',
+		title: 'Frontend Developer',
+		employer: 'AmbiCom Holdings',
+		roleDescription:
+			'Continuously lead the way in software design, crafting impeccable code, and conducting thorough testing. Spearhead seamless integration, ensuring projects are delivered on time. Actively participate in collaborative code reviews, fostering successes through open communication and unwavering dedication to achieving milestones.',
+		mainTechnologies: ['Javascript', 'React', 'HTML', 'CSS'],
+	},
+];
