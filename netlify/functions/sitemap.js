@@ -1,4 +1,4 @@
-const baseUrl = 'https://www.kas-devsolutions.com';
+const baseUrl = 'https://www.kas-websolutions.dev';
 
 const mainPage = { path: '/', priority: '1.0' };
 
