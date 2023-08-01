@@ -5,7 +5,7 @@ export const PROJECTS_DATA = [
 		description:
 			'Note-taking Chrome extension, created during my early coding journey,',
 		img: '/quickNote1500.png',
-		url: 'https://www.formwisers.com',
+		url: 'https://chrome.google.com/webstore/category/extensions',
 		technologies: ['Html', 'Css', 'Javascript'],
 	},
 	{
