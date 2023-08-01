@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+	--primary-color: #2770f6;
+	--background-color: #1c1c1c;
+	--background-color-mobile: #333;
+	--text-color: #fff;
+	--text-color-hover: gold;
+	--box-shadow-color: rgba(123, 124, 123, 0.2);
+	--border-radius: 8px;
+}
+
 h1,
 h2,
 h3,
@@ -30,14 +40,25 @@ p {
 	line-height: 1.6;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
 .body-wraper {
-	background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
-	color: #fff;
-	font-family: Libre Baskerville;
+	background: linear-gradient(
+		360deg,
+		var(--background-color) 10%,
+		var(--primary-color) 360%
+	);
+	color: var(--text-color);
+	font-family: Libre Baskerville, sans-serif, Arial, Helvetica, sans-serif;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 	height: 100%;
 	width: 100%;
+
 	.high-text {
 		opacity: 1 !important;
 		cursor: pointer;
@@ -50,50 +71,55 @@ p {
 	}
 
 	.skill-btn {
-		background-color: #58f2b2;
+		background-color: var(--primary-color);
 		padding: 3px 5px;
 		margin: 5px;
-		border-radius: 8px;
+		border-radius: var(--border-radius);
 		color: #333;
 		text-align: center;
-		box-shadow: 4px 4px 8px rgba(57, 255, 17, 0.2);
+		box-shadow: 4px 4px 8px var(--box-shadow-color);
 	}
 
-	.left-bar {
-		position: fixed;
-		height: 100vh;
-	}
+	.work-history {
+		z-index: 2;
 
-	.work-history-wraper {
-		position: relative;
-		padding: 30px 0;
-		transition: box-shadow 0.3s;
-	}
-
-	.work-history-wraper::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		border-radius: 8px;
-		background: rgba(71, 71, 71, 0.2);
-		opacity: 0;
-		z-index: 1;
-		pointer-events: none;
-		transition: opacity 0.3s;
-		color: #1c1c1c;
-	}
-
-	.work-history-wraper:hover::before {
-		opacity: 1;
-	}
-
-	.work-history-wraper:hover {
-		h3 {
-			color: gold;
-			z-index: 2;
+		img {
+			border-radius: 5px;
 		}
+		.work-history-wraper {
+			position: relative;
+			padding: 30px 0;
+			transition: box-shadow 0.3s;
+		}
+
+		.work-history-wraper::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: var(--border-radius);
+			background: rgba(71, 71, 71, 0.2);
+			opacity: 0;
+			z-index: 0;
+			pointer-events: none;
+			transition: opacity 0.3s;
+			color: var(--background-color);
+		}
+
+		.work-history-wraper:hover::before {
+			opacity: 1;
+		}
+
+		.work-history-wraper:hover h3 {
+			color: var(--text-color-hover);
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.body-wraper {
+		background-color: var(--background-color-mobile);
 	}
 }

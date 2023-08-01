@@ -4,7 +4,24 @@ export const PROJECTS_DATA = [
 		title: 'Quick-Notes',
 		description:
 			'Note-taking Chrome extension, created during my early coding journey,',
-		img: '/icon640.png',
-		technologies: ['HTMl', 'CSS', 'Javascript'],
+		img: '/quickNote1500.png',
+		url: 'https://www.formwisers.com',
+		technologies: ['Html', 'Css', 'Javascript'],
+	},
+	{
+		id: 2,
+		title: 'Formwisers',
+		description:
+			'Enhancing coding skills while leveraging free resources like Netlify and SendGrid to develop an efficient, user-friendly User Management System.',
+		img: '/formwisers1500.jpg',
+		url: 'https://www.formwisers.com',
+		technologies: [
+			'React',
+			'SASS',
+			'Javascript',
+			'Bootstrap',
+			'Serverless',
+			'Sendgrid',
+		],
 	},
 ];
