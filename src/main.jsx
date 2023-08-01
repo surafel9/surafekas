@@ -45,7 +45,7 @@ function ShortSummary() {
 						<div className='row social-icons'>
 							<div className='col-auto'>
 								<a
-									href='https://github.com/surafel9'
+									href='https://github.com/surafel9/surafekas'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
