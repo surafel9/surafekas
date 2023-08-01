@@ -17,7 +17,10 @@ export default function WorkHistory({ data }) {
 						<p className='text'>{work.roleDescription}</p>
 						<div className='row '>
 							{work.mainTechnologies.map((tech, index) => (
-								<div className='col-auto skill-btn' key={index}>
+								<div
+									className='col-auto skill-btn high-text'
+									key={index}
+								>
 									{tech}
 								</div>
 							))}

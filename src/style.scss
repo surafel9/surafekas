@@ -71,13 +71,17 @@ a {
 	}
 
 	.skill-btn {
-		background-color: var(--primary-color);
+		background: linear-gradient(
+			180deg,
+			var(--background-color) 10%,
+			var(--primary-color) 360%
+		);
 		padding: 3px 5px;
 		margin: 5px;
 		border-radius: var(--border-radius);
-		color: #333;
+		color: var(--text-color);
 		text-align: center;
-		box-shadow: 4px 4px 8px var(--box-shadow-color);
+		box-shadow: 1px 1px 1px var(--box-shadow-color);
 	}
 
 	.work-history {

@@ -33,7 +33,7 @@ export default function Projects({ data }) {
 							<div className='row'>
 								{project.technologies.map((tech, index) => (
 									<div
-										className='col-auto skill-btn'
+										className='col-auto skill-btn high-text'
 										key={index}
 									>
 										{tech}

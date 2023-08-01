@@ -48,6 +48,7 @@ function ShortSummary() {
 									href='https://github.com/surafel9/surafekas'
 									target='_blank'
 									rel='noopener noreferrer'
+									aria-label='Visit my GitHub Profile'
 								>
 									<GitHub />
 								</a>
@@ -57,6 +58,7 @@ function ShortSummary() {
 									href='https://www.linkedin.com/in/surafe-kas-09b450286/'
 									target='_blank'
 									rel='noopener noreferrer'
+									aria-label='Visit my LinkedIn Profile'
 								>
 									<Linkedin />
 								</a>
