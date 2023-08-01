@@ -110,7 +110,7 @@ function DetailDescription() {
 			<WorkHistory data={WORK_HISTORY_DATA} />
 			<Projects data={PROJECTS_DATA} />
 			<div className='row my-5'>
-				<div className='col'>
+				<div className='col medium-text'>
 					<a
 						href='/kas_resume.pdf'
 						target='_blank'
