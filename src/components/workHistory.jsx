@@ -6,7 +6,7 @@ export default function WorkHistory({ data }) {
 			<h3 className='d-block d-md-none high-text'>Experiance</h3>
 			{data.map((work) => (
 				<div
-					className='row flex-column flex-md-row md-gap-3 work-history-wraper align-items-center justify-content-center'
+					className='row flex-column flex-md-row md-gap-3 work-history-wraper '
 					key={work.id}
 				>
 					<div className='col-12 col-md-4'>
