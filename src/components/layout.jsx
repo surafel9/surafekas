@@ -1,6 +1,6 @@
 import React from 'react';
+import '../style.scss';
 import Main from './main';
-import './style.scss';
 export default function Layout() {
 	return (
 		<div className='body-wraper'>
@@ -9,7 +9,7 @@ export default function Layout() {
 			</header>
 			<Main />
 			<hr />
-			<footer className='text-center mt-5 py-3 bg-sm-primary bg-md-inherit'>
+			<footer className='text-center mt-5 py-2 bg-sm-primary bg-md-inherit'>
 				<div className='container'>
 					<div className='row  '>
 						<div className='col d-flex flex-column justify-content-center align-items-center'>
@@ -26,8 +26,6 @@ export default function Layout() {
 								Grateful for the valuable resources..
 							</p>
 						</div>
-						<div className='col-12'></div>
-						<div className='col-12'></div>
 					</div>
 				</div>
 			</footer>

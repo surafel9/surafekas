@@ -24,4 +24,13 @@ export const PROJECTS_DATA = [
 			'Sendgrid',
 		],
 	},
+	{
+		id: 3,
+		title: 'Old Page',
+		description:
+			'This page showcases my previous portfolio along with a selection of projects I have undertaken.',
+		img: '/surafeKasOldPage.png',
+		url: 'https://www.portfolio.kas-websolutions.dev/',
+		technologies: ['React', 'SASS', 'Javascript', 'Bootstrap'],
+	},
 ];

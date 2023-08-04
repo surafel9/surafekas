@@ -12,7 +12,7 @@ export default function Projects({ data }) {
 					key={project.id}
 				>
 					<div
-						className='row flex-column flex-md-row gap-3 work-history-wraper '
+						className='row flex-column flex-md-row gap-3 work-history-wraper align-items-center justify-content-center'
 						style={{ minHeight: '300px' }}
 					>
 						<div className='col-12 col-md-4 position-relative '>
