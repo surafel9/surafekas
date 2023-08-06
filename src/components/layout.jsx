@@ -4,7 +4,7 @@ import Main from './main';
 export default function Layout() {
 	return (
 		<div className='body-wraper'>
-			<header className='d-block d-md-none bg-primary p-3 fixed-top'>
+			<header className='d-block d-md-none bg-primary p-3 fixed-top '>
 				SURAFE KAS | surafekas@gmail.com
 			</header>
 			<Main />

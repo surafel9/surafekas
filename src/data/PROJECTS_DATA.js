@@ -33,4 +33,19 @@ export const PROJECTS_DATA = [
 		url: 'https://www.portfolio.kas-websolutions.dev/',
 		technologies: ['React', 'SASS', 'Javascript', 'Bootstrap'],
 	},
+	{
+		id: 4,
+		title: 'Free Fullstack Website: Part 1 - Exploring with Limited Resources',
+		description:
+			'This is the initial phase of a past project, currently paused. It serves as a test to deploy a cost-effective full-stack website. Stay tuned for future updates.',
+		img: '/md_twitter.png',
+		url: 'https://blog.kas-websolutions.dev/',
+		technologies: [
+			'React',
+			'Javascript',
+			'Bootstrap',
+			'PSQL',
+			'Netlify-Serverless functions',
+		],
+	},
 ];
