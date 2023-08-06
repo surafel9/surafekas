@@ -20,7 +20,7 @@ export default function ShortSummary() {
 				<div className='row social-icons'>
 					<div className='col-auto'>
 						<a
-							href='https://github.com/surafel9/surafekas'
+							href='https://github.com/surkas/surafekas'
 							target='_blank'
 							rel='noopener noreferrer'
 							aria-label='Visit my GitHub Profile'
