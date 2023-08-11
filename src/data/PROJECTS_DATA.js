@@ -12,7 +12,7 @@ export const PROJECTS_DATA = [
 		id: 2,
 		title: 'Formwisers',
 		description:
-			'Enhancing coding skills while leveraging free resources like Netlify and SendGrid to develop an efficient, user-friendly User Management System.',
+			'Utilizing resources like Netlify and SendGrid, to create an efficient, user-friendly, backend-free small business website model.',
 		img: '/formwisers1500.jpeg',
 		url: 'https://www.formwisers.com',
 		technologies: [
