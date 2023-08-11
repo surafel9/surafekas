@@ -43,4 +43,4 @@ Bootstrap
 
 Feel free to explore the project, and if you have any feedback or questions, please don't hesitate to contact me.
 
-Happy coding! 😊
+Happy coding! 
