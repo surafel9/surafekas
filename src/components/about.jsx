@@ -4,35 +4,34 @@ export default function About() {
 	return (
 		<div className='col about mb-5'>
 			<h3 className='d-block d-md-none high-text'>About me</h3>
-			<p className='text'>
-				My coding journey began in 2013 during my pursuit of a master's
-				in disease prevention . Initially drawn to medical science, my
-				perspective shifted dramatically when I delved into R and Python
-				for data analysis. Block by block, I found myself captivated by
-				the world of computer science, ultimately leading me to switch
-				career paths.
+			<p>
+				I'm a dedicated Full Stack Developer with a strong foundation in
+				data analysis using R and Python. This background propelled me
+				into the dynamic world of computer science.
 			</p>
-			<p className='text'>
-				What I love about computer science is the vibrant community and
-				the spirit of resource-sharing. Unlike life science, where
-				experimentation and research can be costly, computer science
-				offers a wealth of freely accessible tools and knowledge. While
-				there are still expenses involved in learning and practicing
-				computer science, the abundance of resources has contributed to
-				its rapid growth.
-			</p>{' '}
-			<p className='text'>
-				I am driven by the endless possibilities that computer science
-				presents and the ability to create, innovate, and problem-solve.
-				Through continuous learning and staying at the forefront of
-				technology, I strive to make a meaningful impact in the digital
-				landscape.
+
+			<p>
+				I'm passionate about innovation and problem-solving. Staying at
+				the forefront of technology allows me to make a significant
+				impact in the digital landscape.
 			</p>
-			<p className='text'>
-				I have experience working on various projects, including
-				government applications, startups, small business standalone
-				applications, freelancing, full-time jobs, and pro bono
-				services.
+
+			<p>
+				My experience spans diverse projects, from government
+				applications to startups, showcasing my ability to navigate
+				various technical landscapes and collaborate effectively.
+			</p>
+
+			<p>
+				Proficient across the development stack, I seamlessly bridge
+				front-end and back-end, crafting intuitive interfaces and
+				architecting robust solutions that meet high standards.
+			</p>
+
+			<p>
+				I'm excited to contribute my expertise to a forward-thinking
+				team, continuing to evolve as a Full Stack Developer and driving
+				innovation through technology.
 			</p>
 		</div>
 	);

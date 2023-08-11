@@ -65,15 +65,31 @@ export default function Main() {
 						className={isSticky ? ' fixed-top ' : ''}
 					>
 						<ShortSummary />
-						<h3
-							style={{
-								marginTop: '100px',
-								fontVariant: 'small-caps',
-							}}
-							className='d-none d-md-block'
-						>
-							{activeComponent}
-						</h3>
+						<div className='row'>
+							<div className='col'>
+								<h3
+									style={{
+										marginTop: '100px',
+										fontVariant: 'small-caps',
+									}}
+									className='d-none d-md-block'
+								>
+									{activeComponent}
+								</h3>
+								{activeComponent === 'projects' && (
+									<div className='col'>
+										<p
+											style={{
+												color: '#ffd700',
+												opacity: 0.8,
+											}}
+										>
+											(These are side gig projects)
+										</p>
+									</div>
+								)}
+							</div>
+						</div>
 					</div>
 				</div>
 
