@@ -7,9 +7,9 @@ export default function Main() {
 	const [isSticky, setIsSticky] = useState(false);
 	const [width, setWidth] = useState('auto');
 	const [containerWidth, setContainerWidth] = useState('auto');
+	const [activeComponent, setActiveComponent] = useState('about');
 	const sideBarRef = useRef(null);
 	const containerRef = useRef(null);
-	const [activeComponent, setActiveComponent] = useState('about');
 
 	const handleVisibleComponent = (component) => {
 		setActiveComponent(component);

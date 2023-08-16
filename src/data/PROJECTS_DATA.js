@@ -48,4 +48,20 @@ export const PROJECTS_DATA = [
 			'Netlify-Serverless functions',
 		],
 	},
+	{
+		id: 5,
+		title: 'Top-10',
+		description:
+			'The idea is to build a movie listing website and also allow users to create there top 10 movies and share the list',
+		img: '/top-10.jpg',
+		url: 'https://top10movies.kas-websolutions.dev',
+		technologies: [
+			'React',
+			'Javascript',
+			'Bootstrap',
+			'PSQL',
+			'Netlify-Serverless functions',
+			'THMDB free API',
+		],
+	},
 ];

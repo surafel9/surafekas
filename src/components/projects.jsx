@@ -30,10 +30,10 @@ export default function Projects({ data }) {
 						<div className='col-12 col-md-7 '>
 							<h3>{project.title}</h3>
 							<p className='text'>{project.description}</p>
-							<div className='row'>
+							<div className='row d-flex align-items-center justify-content-center'>
 								{project.technologies.map((tech, index) => (
 									<div
-										className='col-auto skill-btn high-text'
+										className='col-auto skill-btn high-text '
 										key={index}
 									>
 										{tech}

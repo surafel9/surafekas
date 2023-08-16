@@ -47,6 +47,7 @@ a {
 }
 
 .body-wraper {
+	background: var(--background-color);
 	background: linear-gradient(
 		360deg,
 		var(--background-color) 10%,
@@ -71,12 +72,7 @@ a {
 	}
 
 	.skill-btn {
-		background: linear-gradient(
-			180deg,
-			var(--background-color) 10%,
-			var(--primary-color) 360%
-		);
-		padding: 3px 5px;
+		padding: 5px;
 		margin: 5px;
 		border-radius: var(--border-radius);
 		color: var(--text-color);
