@@ -30,8 +30,7 @@ export default function ShortSummary() {
 					</div>
 					<div className='col-auto'>
 						<a
-							href='https://www.linkedin.com/in/surafe-kas-09b450286/'
-							target='_blank'
+							href='https://www.linkedin.com/in/sura-kasa/'
 							rel='noopener noreferrer'
 							aria-label='Visit my LinkedIn Profile'
 						>
