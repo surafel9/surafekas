@@ -37,7 +37,7 @@ export const PROJECTS_DATA = [
 		id: 4,
 		title: 'Free Fullstack Website: Part 1 - Exploring with Limited Resources',
 		description:
-			'This is the initial phase of a past project, currently paused. It serves as a test to deploy a cost-effective full-stack website. Stay tuned for future updates.',
+			'This represents the initial phase of a prior project, presently on hold. It functions as a test environment for deploying and experimenting with a full-stack website, intended for educational and demonstration purposes, all at no cost.',
 		img: '/md_twitter.jpg',
 		url: 'https://blog.kas-websolutions.dev/',
 		technologies: [
@@ -45,14 +45,14 @@ export const PROJECTS_DATA = [
 			'Javascript',
 			'Bootstrap',
 			'PSQL',
-			'Netlify-Serverless functions',
+			'Serverless functions',
 		],
 	},
 	{
 		id: 5,
 		title: 'Top-10',
 		description:
-			'The idea is to build a movie listing website and also allow users to create there top 10 movies and share the list',
+			"I am a movie enthusiast, and a few years ago, I had a passion for creating my list of favorite movies. That's when I decided to create this website.",
 		img: '/top-10.jpg',
 		url: 'https://top10movies.kas-websolutions.dev',
 		technologies: [
@@ -60,7 +60,7 @@ export const PROJECTS_DATA = [
 			'Javascript',
 			'Bootstrap',
 			'PSQL',
-			'Netlify-Serverless functions',
+			'Serverless functions',
 			'THMDB free API',
 		],
 	},

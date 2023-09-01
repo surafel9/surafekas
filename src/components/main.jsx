@@ -84,7 +84,7 @@ export default function Main() {
 												opacity: 0.8,
 											}}
 										>
-											(These are side gig projects)
+											(Unpaid educational projects.)
 										</p>
 									</div>
 								)}

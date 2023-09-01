@@ -8,10 +8,10 @@ export default function ShortSummary() {
 				<h1 className='high-text'>Surafe Kas</h1>
 				<h2 className='medium-text'>Full-Stack Developer</h2>
 				<p className='header text'>
-					Experienced Full Stack Developer with a passion for crafting
-					accessible and high-performance web experiences. I thrive on
-					delivering multiple projects using Agile methodologies and
-					CI/CD practices. Continuous learning drives my journey as a
+					Full Stack Developer with a passion for crafting accessible
+					and high-performance web experiences. I thrive on delivering
+					multiple projects using Agile methodologies and CI/CD
+					practices. Continuous learning drives my journey as a
 					developer, ensuring that I stay at the forefront of the
 					industry.
 				</p>
