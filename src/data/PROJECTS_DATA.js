@@ -54,7 +54,7 @@ export const PROJECTS_DATA = [
 		description:
 			"I am a movie enthusiast, and a few years ago, I had a passion for creating my list of favorite movies. That's when I decided to create this website.",
 		img: '/top-10.jpg',
-		url: 'https://top10movies.kas-websolutions.dev',
+		url: 'https://top10ns.online',
 		technologies: [
 			'React',
 			'Javascript',
