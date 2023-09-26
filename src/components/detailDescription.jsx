@@ -51,7 +51,7 @@ export default function DetailDescription({ handleVisibleComponent }) {
 			<div className='row my-5'>
 				<div className='col medium-text'>
 					<a
-						href='/surafeKas_resume.pdf'
+						href='/kasa_surafe_resume.pdf'
 						target='_blank'
 						rel='noopener noreferrer'
 						style={{ textDecoration: 'underline' }}
