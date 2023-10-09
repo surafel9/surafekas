@@ -6,8 +6,7 @@ export default function About() {
 			<h3 className='d-block d-md-none high-text'>About me</h3>
 			<p>
 				I'm a dedicated Full Stack Developer with a strong foundation in
-				data analysis using R and Python. This background propelled me
-				into the dynamic world of computer science.
+				computer science.
 			</p>
 
 			<p>

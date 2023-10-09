@@ -25,30 +25,5 @@ export const WORK_HISTORY_DATA = [
 			'Agile',
 		],
 	},
-	{
-		id: 2,
-		startDate: '01-02-2018',
-		endDate: '01-26-2022',
-		title: 'Full stack developer',
-		employer: 'CVS',
-		roleDescription:
-			'Reliably achieve excellence by orchestrating cutting-edge software designs, crafting flawless code, and executing comprehensive testing. Pioneering seamless integration and swift project deployment, I guarantee on-time project deliveries. Actively contribute to collaborative code reviews and dynamic meetings, cultivating seamless communication and triumphant project results. Unwavering dedication fuels the team towards surpassing project milestones, setting new standards of achievement.',
-		mainTechnologies: [
-			'HTML',
-			'CSS',
-			'JavaScript',
-			'C#',
-			'.NET',
-			'ASP.NET',
-			'React.js',
-			'MySQL',
-			' PL SQL',
-			'Bootstrap',
-			'JQuery',
-			'Angular',
-			'Typescript',
-			'Node.js',
-			'Java',
-		],
-	},
+	
 ];
