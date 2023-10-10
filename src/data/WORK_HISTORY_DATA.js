@@ -1,10 +1,10 @@
 export const WORK_HISTORY_DATA = [
 	{
 		id: 1,
-		startDate: '02-02-2022',
+		startDate: '01-02-2021',
 		endDate: 'current',
-		title: 'Full Stack Web Developer',
-		employer: 'DEQ',
+		title: 'Junior Full Stack Web Developer',
+		employer: 'CVS Health',
 		roleDescription:
 			'Consistently deliver top-tier software solutions by leading application design, writing impeccable code, and conducting meticulous testing. Spearhead seamless integration and deployment processes, ensuring timely project completions. Actively contribute to code reviews and engage in collaborative meetings, fostering effective communication and successful project outcomes. Display unwavering commitment and dedication to driving the team towards achieving project milestones and exceeding expectations.',
 		mainTechnologies: [
@@ -25,5 +25,4 @@ export const WORK_HISTORY_DATA = [
 			'Agile',
 		],
 	},
-	
 ];
